@@ -1,7 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 20px
 }
+th, p{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
 table {
     width: 70%;
     border-collapse: collapse;
@@ -12,5 +16,38 @@ th, td{
     padding: 8px;
 }
 th{
-    background-color: rgb(43, 226, 217);
+    background-color: rgba(226, 43, 43, 0.137);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 17, 0, 0.041);
+    margin: 0;
+    padding: 20px;
+}
+p{
+    text-align: center;
+    color: rgb(79, 48, 47);
+}
+label{
+    display: block;
+    margin: 10px  0  5px;
+    font-weight:  bold;
+}
+input, textarea, select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(138, 255, 127);
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(0, 195, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px; rgb(0,0,0,1);
 }
